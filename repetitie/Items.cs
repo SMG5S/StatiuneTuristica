@@ -266,56 +266,62 @@ namespace repetitie
         private void btn_total_Click(object sender, EventArgs e)
         {
             double[] itemcost = new double[100];
-            
-            itemcost[0] = Convert.ToDouble(txtBurger.Text) * pret_burger;
-            itemcost[2] = Convert.ToDouble(txtCartofi.Text) * pret_cartofi;
-            itemcost[3] = Convert.ToDouble(txtPui.Text) * pret_pui;
-            itemcost[4] = Convert.ToDouble(txtSupa.Text) * pret_supa;
-            itemcost[5] = Convert.ToDouble(txtSalata.Text) * pret_salata;
-
-            itemcost[6] = Convert.ToDouble(txtApa.Text) * pret_apa;
-            itemcost[7] = Convert.ToDouble(txtVin.Text) * pret_vin;
-            itemcost[8] = Convert.ToDouble(txtBere.Text) * pret_bere;
-            itemcost[9] = Convert.ToDouble(txtFanta.Text) * pret_fanta;
-            itemcost[10] = Convert.ToDouble(txtCola.Text) * pret_cola;
-            /*
-            itemcost[0] = Double.Parse(txtBurger.Text) * pret_burger;
-            
-            itemcost[2] = Double.Parse(txtCartofi.Text) * pret_cartofi;
-            itemcost[3] = Double.Parse(txtPui.Text) * pret_pui;
-            itemcost[4] = Double.Parse(txtSupa.Text) * pret_supa;
-            itemcost[5] = Double.Parse(txtSalata.Text) * pret_salata;
-
-            itemcost[6] = Double.Parse(txtApa.Text) * pret_apa;
-            itemcost[7] = Double.Parse(txtVin.Text) * pret_vin;
-            itemcost[8] = Double.Parse(txtBere.Text) * pret_bere;
-            itemcost[9] = Double.Parse(txtFanta.Text) * pret_fanta;
-            itemcost[10] = Double.Parse(txtCola.Text) * pret_cola;
-            */
-
-
-            double total, plata,  pret;
-            if(cmb_plata.Text == "Cash")
+            try
             {
-                total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6] + itemcost[7] + itemcost[8] + itemcost[9] + itemcost[10];
+                itemcost[0] = Convert.ToDouble(txtBurger.Text) * pret_burger;
+                itemcost[2] = Convert.ToDouble(txtCartofi.Text) * pret_cartofi;
+                itemcost[3] = Convert.ToDouble(txtPui.Text) * pret_pui;
+                itemcost[4] = Convert.ToDouble(txtSupa.Text) * pret_supa;
+                itemcost[5] = Convert.ToDouble(txtSalata.Text) * pret_salata;
 
-                label2.Text = Convert.ToString(total);
+                itemcost[6] = Convert.ToDouble(txtApa.Text) * pret_apa;
+                itemcost[7] = Convert.ToDouble(txtVin.Text) * pret_vin;
+                itemcost[8] = Convert.ToDouble(txtBere.Text) * pret_bere;
+                itemcost[9] = Convert.ToDouble(txtFanta.Text) * pret_fanta;
+                itemcost[10] = Convert.ToDouble(txtCola.Text) * pret_cola;
+                /*
+                itemcost[0] = Double.Parse(txtBurger.Text) * pret_burger;
 
-                plata = Convert.ToInt32(txt_plata.Text);
+                itemcost[2] = Double.Parse(txtCartofi.Text) * pret_cartofi;
+                itemcost[3] = Double.Parse(txtPui.Text) * pret_pui;
+                itemcost[4] = Double.Parse(txtSupa.Text) * pret_supa;
+                itemcost[5] = Double.Parse(txtSalata.Text) * pret_salata;
 
-                pret = plata - total;
+                itemcost[6] = Double.Parse(txtApa.Text) * pret_apa;
+                itemcost[7] = Double.Parse(txtVin.Text) * pret_vin;
+                itemcost[8] = Double.Parse(txtBere.Text) * pret_bere;
+                itemcost[9] = Double.Parse(txtFanta.Text) * pret_fanta;
+                itemcost[10] = Double.Parse(txtCola.Text) * pret_cola;
+                */
 
-                label3.Text = Convert.ToString(pret);
+
+                double total, plata, pret;
+                if (cmb_plata.Text == "Cash")
+                {
+                    total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6] + itemcost[7] + itemcost[8] + itemcost[9] + itemcost[10];
+
+                    label2.Text = Convert.ToString(total);
+
+                    plata = Convert.ToInt32(txt_plata.Text);
+
+                    pret = plata - total;
+
+                    label3.Text = Convert.ToString(pret);
+                }
+                if (cmb_plata.Text == "Card")
+                {
+                    total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6] + itemcost[7] + itemcost[8] + itemcost[9] + itemcost[10];
+
+                    label2.Text = Convert.ToString(total);
+
+                    label3.Text ="Plata acceptata";
+                }
             }
-            if (cmb_plata.Text == "Card")
+            catch(FormatException fe)
             {
-                total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6] + itemcost[7] + itemcost[8] + itemcost[9] + itemcost[10];
-
-                label2.Text = Convert.ToString(total);
-
-                label3.Text ="Plata acceptata";
+                MessageBox.Show("Va rog comandati ceva inainte sa platiti!");
+                Console.WriteLine(fe.Message);
             }
-
 
         }
 
