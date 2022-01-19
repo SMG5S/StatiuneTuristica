@@ -15,6 +15,7 @@ namespace repetitie
     {
         public Form2()
         {
+ 
             InitializeComponent();
         }
         private void LoadData()
@@ -39,33 +40,67 @@ namespace repetitie
             this.Close();
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        private async void btnAdd_Click(object sender, EventArgs e)
         {
-            using (RestaurantDbContext context = new RestaurantDbContext())
-            {
-               Client s = new Client();
+           using(RestaurantDbContext context = new RestaurantDbContext())
+           {
+                Client s = new Client();
                 s.Nume = this.textBox1.Text;
                 s.Prenume = this.textBox2.Text;
                 s.DataIntrare = this.dateTimePicker1.Value;
                 s.Telefon = int.Parse(textBox3.Text);
 
                 s.DataIntrare = DateTime.Now;
+                try
+                {
+                    var res = Task.Run(() => AddClient(s));
+                    Console.WriteLine("Waiting for the add process to finish...");
+                    res.Wait();
+                    Console.WriteLine("Done.");
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
 
-                context.Clienti.Add(s);
-                context.SaveChanges();
-            }
-            this.DialogResult = DialogResult.OK;
+           }
             
-            LoadData();
+         
         }
 
-        private void btnVerificare_Click(object sender, EventArgs e)
+        private async Task AddClient(Client cl)
+        {
+            using (RestaurantDbContext rdc = new RestaurantDbContext())
+            {
+                rdc.Clienti.Add(cl);
+
+                await rdc.SaveChangesAsync();
+            }
+            this.DialogResult = DialogResult.OK;
+        }
+        public delegate void DelegateDB();
+        private async void btnVerificare_Click(object sender, EventArgs e)
         {
             if (txtParola.Text.Equals("handybutton"))
             {
-                LoadData();
+                try
+                {
+                    var res = Task.Run(() => VerificareParola());
+                    Console.WriteLine("Checking to see if the password is correct...");
+                    res.Wait();
+                    Console.WriteLine("Done.");
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
             }
             else return;
+        }
+
+        private async Task VerificareParola()
+        {
+            this.BeginInvoke(new DelegateDB(LoadData));
         }
     }
 }
