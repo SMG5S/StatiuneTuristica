@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace repetitie
 {
@@ -15,7 +16,6 @@ namespace repetitie
         public Form2()
         {
             InitializeComponent();
-            LoadData();
         }
         private void LoadData()
         {
@@ -57,6 +57,15 @@ namespace repetitie
             this.DialogResult = DialogResult.OK;
             
             LoadData();
+        }
+
+        private void btnVerificare_Click(object sender, EventArgs e)
+        {
+            if (txtParola.Text.Equals("handybutton"))
+            {
+                LoadData();
+            }
+            else return;
         }
     }
 }
