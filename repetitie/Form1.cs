@@ -49,7 +49,7 @@ namespace repetitie
             }
         }
         private void button1_Click(object sender, EventArgs e)
-        {
+        { 
             Form2 lala = new Form2();
             lala.Show();
             this.Hide();
