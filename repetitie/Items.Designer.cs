@@ -146,6 +146,7 @@ namespace repetitie
             // chk_salata
             // 
             this.chk_salata.AutoSize = true;
+            this.chk_salata.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_salata.Location = new System.Drawing.Point(6, 106);
             this.chk_salata.Name = "chk_salata";
             this.chk_salata.Size = new System.Drawing.Size(68, 21);
@@ -157,6 +158,7 @@ namespace repetitie
             // chk_pui
             // 
             this.chk_pui.AutoSize = true;
+            this.chk_pui.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_pui.Location = new System.Drawing.Point(6, 79);
             this.chk_pui.Name = "chk_pui";
             this.chk_pui.Size = new System.Drawing.Size(104, 21);
@@ -168,6 +170,7 @@ namespace repetitie
             // chk_cartofi
             // 
             this.chk_cartofi.AutoSize = true;
+            this.chk_cartofi.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_cartofi.Location = new System.Drawing.Point(6, 50);
             this.chk_cartofi.Name = "chk_cartofi";
             this.chk_cartofi.Size = new System.Drawing.Size(108, 21);
@@ -179,6 +182,7 @@ namespace repetitie
             // chk_supa
             // 
             this.chk_supa.AutoSize = true;
+            this.chk_supa.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_supa.Location = new System.Drawing.Point(6, 133);
             this.chk_supa.Name = "chk_supa";
             this.chk_supa.Size = new System.Drawing.Size(120, 21);
@@ -190,6 +194,7 @@ namespace repetitie
             // chk_burger
             // 
             this.chk_burger.AutoSize = true;
+            this.chk_burger.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_burger.Location = new System.Drawing.Point(7, 22);
             this.chk_burger.Name = "chk_burger";
             this.chk_burger.Size = new System.Drawing.Size(72, 21);
@@ -267,6 +272,7 @@ namespace repetitie
             // chk_fanta
             // 
             this.chk_fanta.AutoSize = true;
+            this.chk_fanta.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_fanta.Location = new System.Drawing.Point(0, 133);
             this.chk_fanta.Name = "chk_fanta";
             this.chk_fanta.Size = new System.Drawing.Size(62, 21);
@@ -287,6 +293,7 @@ namespace repetitie
             // chk_vin
             // 
             this.chk_vin.AutoSize = true;
+            this.chk_vin.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_vin.Location = new System.Drawing.Point(0, 106);
             this.chk_vin.Name = "chk_vin";
             this.chk_vin.Size = new System.Drawing.Size(48, 21);
@@ -298,6 +305,7 @@ namespace repetitie
             // chk_bere
             // 
             this.chk_bere.AutoSize = true;
+            this.chk_bere.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_bere.Location = new System.Drawing.Point(0, 79);
             this.chk_bere.Name = "chk_bere";
             this.chk_bere.Size = new System.Drawing.Size(59, 21);
@@ -309,6 +317,7 @@ namespace repetitie
             // chk_cola
             // 
             this.chk_cola.AutoSize = true;
+            this.chk_cola.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_cola.Location = new System.Drawing.Point(0, 50);
             this.chk_cola.Name = "chk_cola";
             this.chk_cola.Size = new System.Drawing.Size(91, 21);
@@ -320,6 +329,7 @@ namespace repetitie
             // chk_apa
             // 
             this.chk_apa.AutoSize = true;
+            this.chk_apa.ForeColor = System.Drawing.SystemColors.Desktop;
             this.chk_apa.Location = new System.Drawing.Point(0, 22);
             this.chk_apa.Name = "chk_apa";
             this.chk_apa.Size = new System.Drawing.Size(54, 21);
@@ -331,6 +341,7 @@ namespace repetitie
             // btn_exit
             // 
             this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_exit.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btn_exit.Location = new System.Drawing.Point(727, 518);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(193, 68);
@@ -342,6 +353,7 @@ namespace repetitie
             // btn_total
             // 
             this.btn_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_total.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btn_total.Location = new System.Drawing.Point(615, 392);
             this.btn_total.Name = "btn_total";
             this.btn_total.Size = new System.Drawing.Size(146, 58);
@@ -363,6 +375,7 @@ namespace repetitie
             // 
             this.lbl_plata.AutoSize = true;
             this.lbl_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_plata.ForeColor = System.Drawing.SystemColors.Desktop;
             this.lbl_plata.Location = new System.Drawing.Point(109, 404);
             this.lbl_plata.Name = "lbl_plata";
             this.lbl_plata.Size = new System.Drawing.Size(152, 29);
@@ -373,6 +386,7 @@ namespace repetitie
             // 
             this.lbl_total.AutoSize = true;
             this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_total.ForeColor = System.Drawing.SystemColors.Desktop;
             this.lbl_total.Location = new System.Drawing.Point(111, 488);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(74, 29);
@@ -382,10 +396,11 @@ namespace repetitie
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label2.Location = new System.Drawing.Point(111, 544);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 29);
+            this.label2.Size = new System.Drawing.Size(93, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "total result ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -394,6 +409,7 @@ namespace repetitie
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label1.Location = new System.Drawing.Point(317, 488);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 29);
@@ -403,10 +419,11 @@ namespace repetitie
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label3.Location = new System.Drawing.Point(297, 544);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(170, 29);
+            this.label3.Size = new System.Drawing.Size(119, 20);
             this.label3.TabIndex = 11;
             this.label3.Text = "change_result ";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -422,6 +439,7 @@ namespace repetitie
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button2.Location = new System.Drawing.Point(384, 299);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(180, 41);
