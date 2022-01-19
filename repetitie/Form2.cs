@@ -15,7 +15,7 @@ namespace repetitie
     {
         public Form2()
         {
- 
+
             InitializeComponent();
         }
         private void LoadData()
@@ -42,30 +42,9 @@ namespace repetitie
 
         private async void btnAdd_Click(object sender, EventArgs e)
         {
-           using(RestaurantDbContext context = new RestaurantDbContext())
-           {
-                Client s = new Client();
-                s.Nume = this.textBox1.Text;
-                s.Prenume = this.textBox2.Text;
-                s.DataIntrare = this.dateTimePicker1.Value;
-                s.Telefon = int.Parse(textBox3.Text);
 
-                s.DataIntrare = DateTime.Now;
-                try
-                {
-                    var res = Task.Run(() => AddClient(s));
-                    Console.WriteLine("Waiting for the add process to finish...");
-                    res.Wait();
-                    Console.WriteLine("Done.");
-                }
-                catch(Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
 
-           }
-            
-         
+
         }
 
         private async Task AddClient(Client cl)
@@ -79,7 +58,7 @@ namespace repetitie
             this.DialogResult = DialogResult.OK;
         }
         public delegate void DelegateDB();
-        private async void btnVerificare_Click(object sender, EventArgs e)
+        private async void btnVerificareTask_Click(object sender, EventArgs e)
         {
             if (txtParola.Text.Equals("handybutton"))
             {
@@ -90,7 +69,7 @@ namespace repetitie
                     res.Wait();
                     Console.WriteLine("Done.");
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
                 }
@@ -101,6 +80,33 @@ namespace repetitie
         private async Task VerificareParola()
         {
             this.BeginInvoke(new DelegateDB(LoadData));
+        }
+
+        private void btnAddTask_Click(object sender, EventArgs e)
+        {
+            using (RestaurantDbContext context = new RestaurantDbContext())
+            {
+                Client s = new Client();
+                try
+                {
+                    s.Nume = this.textBox1.Text;
+                    s.Prenume = this.textBox2.Text;
+                    s.DataIntrare = this.dateTimePicker1.Value;
+                    s.Telefon = int.Parse(textBox3.Text);
+
+                    s.DataIntrare = DateTime.Now;
+
+                    var res = Task.Run(() => AddClient(s));
+                    Console.WriteLine("Waiting for the add process to finish...");
+                    res.Wait();
+                    Console.WriteLine("Done.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+
+            }
         }
     }
 }

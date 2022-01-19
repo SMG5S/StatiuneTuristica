@@ -131,7 +131,7 @@ namespace repetitie
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "ADD";
             this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.btnAdd.Click += new System.EventHandler(this.btnAddTask_Click);
             // 
             // btnClose
             // 
@@ -165,7 +165,7 @@ namespace repetitie
             this.btnVerificare.TabIndex = 11;
             this.btnVerificare.Text = "Verifica";
             this.btnVerificare.UseVisualStyleBackColor = true;
-            this.btnVerificare.Click += new System.EventHandler(this.btnVerificare_Click);
+            this.btnVerificare.Click += new System.EventHandler(this.btnVerificareTask_Click);
             // 
             // label1
             // 
