@@ -393,6 +393,11 @@ namespace repetitie
             " bere               ->              7 lei \n" +
             " fanta              ->             6 lei \n");
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
