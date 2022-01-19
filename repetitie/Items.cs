@@ -319,47 +319,13 @@ namespace repetitie
 
         }
 
-        private void ResetTextBox()
-        {
-            /*
-            Action<Control.ControlCollection> func = null;
-
-            func = (controls) =>
-            {
-                foreach (Control control in controls)
-                    if (control is TextBox)
-                        (control as TextBox).Text = "0";
-                    else
-                        func(Controls);
-
-            };
-            func(Controls);
-            */
-        }
+        
 
         private void btn_reset_Click(object sender, EventArgs e)
         {
-            ResetTextBox();
-            ResetCheckBox();
+            
         }
 
-        private void ResetCheckBox()
-        {
-            /*
-            Action<Control.ControlCollection> func = null;
-
-            func = (controls) =>
-            {
-                foreach (Control control in controls)
-                    if (control is CheckBox)
-                        (control as CheckBox).Text = "0";
-                    else
-                        func(Controls);
-
-            };
-            func(Controls);
-            */
-        }
 
         private void btn_ok_Click(object sender, EventArgs e)
         {

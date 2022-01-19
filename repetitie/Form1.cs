@@ -16,13 +16,17 @@ namespace repetitie
         public frm_meniu()
         {
             InitializeComponent();
+           
         }
-        //
+
+        
+
+        //nu folosim
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
-        //
+        //nu folosim
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -47,9 +51,9 @@ namespace repetitie
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-            
-           
+            Form2 lala = new Form2();
+            lala.Show();
+            this.Hide();
 
         }
     }
