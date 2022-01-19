@@ -7,3 +7,12 @@ C:\FC1\MIP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.c
 C:\FC1\MIP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\FC1\MIP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\FC1\MIP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ioana\Source\Repos\StatiuneTuristica\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ioana\Source\Repos\StatiuneTuristica\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ioana\Source\Repos\StatiuneTuristica\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ioana\Source\Repos\StatiuneTuristica\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\ioana\Source\Repos\StatiuneTuristica\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ioana\Source\Repos\StatiuneTuristica\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\ioana\Source\Repos\StatiuneTuristica\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\ioana\Source\Repos\StatiuneTuristica\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ioana\Source\Repos\StatiuneTuristica\obj\Debug\WindowsFormsApp1.pdb
