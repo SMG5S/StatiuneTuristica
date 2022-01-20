@@ -24,7 +24,7 @@ namespace repetitie
         [MaxLength(500, ErrorMessage = "Descriere prea lunga")]
         public string Prenume { get; set; }
         public DateTime DataIntrare { get; set; }
-        public int Telefon { get; set; }
+        public long Telefon { get; set; }
     }
 
     public class RestaurantDbContext : DbContext
