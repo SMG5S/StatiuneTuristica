@@ -13,5 +13,6 @@ namespace RoomReservationApp.Models
         {
         }
         public DbSet<Room> Rooms { get; set; }
+       // public DbSet<Customer> Customers { get; set; }
     }
 }
