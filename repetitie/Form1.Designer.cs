@@ -53,9 +53,9 @@ namespace repetitie
             this.btn_order.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_order.Location = new System.Drawing.Point(353, 290);
             this.btn_order.Name = "btn_order";
-            this.btn_order.Size = new System.Drawing.Size(165, 50);
+            this.btn_order.Size = new System.Drawing.Size(175, 58);
             this.btn_order.TabIndex = 1;
-            this.btn_order.Text = "Accesati meniul";
+            this.btn_order.Text = "Accesati Meniul";
             this.btn_order.UseVisualStyleBackColor = true;
             this.btn_order.Click += new System.EventHandler(this.btn_order_Click);
             // 
@@ -64,7 +64,7 @@ namespace repetitie
             this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_exit.Location = new System.Drawing.Point(352, 454);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(165, 50);
+            this.btn_exit.Size = new System.Drawing.Size(176, 50);
             this.btn_exit.TabIndex = 3;
             this.btn_exit.Text = "Exit";
             this.btn_exit.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@ namespace repetitie
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(354, 214);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 53);
+            this.button1.Size = new System.Drawing.Size(174, 53);
             this.button1.TabIndex = 6;
             this.button1.Text = "Inregistrare Clienti";
             this.button1.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@ namespace repetitie
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.button2.Location = new System.Drawing.Point(353, 368);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 59);
+            this.button2.Size = new System.Drawing.Size(175, 59);
             this.button2.TabIndex = 8;
             this.button2.Text = "Accesati Hotelul";
             this.button2.UseVisualStyleBackColor = true;
