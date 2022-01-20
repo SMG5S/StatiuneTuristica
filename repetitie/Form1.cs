@@ -55,5 +55,11 @@ namespace repetitie
             this.Hide();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RoomReservationApp news= new RoomReservationApp();
+            news.Show();
+            this.Hide();
+        }
     }
 }

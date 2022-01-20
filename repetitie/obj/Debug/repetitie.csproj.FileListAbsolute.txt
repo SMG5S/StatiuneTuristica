@@ -48,3 +48,22 @@ C:\Users\creep\Source\Repos\SMG5S\StatiuneTuristica\repetitie\bin\Debug\EntityFr
 C:\Users\creep\Source\Repos\SMG5S\StatiuneTuristica\repetitie\bin\Debug\EntityFramework.xml
 C:\Users\creep\Source\Repos\SMG5S\StatiuneTuristica\repetitie\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\creep\Source\Repos\SMG5S\StatiuneTuristica\repetitie\obj\Debug\repetitie.csproj.CopyComplete
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\repetitie.exe.config
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\repetitie.exe
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\repetitie.pdb
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\EntityFramework.dll
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\EntityFramework.xml
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.csproj.AssemblyReference.cache
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.frm_meniu.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.Form2.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.frm_items.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.Properties.Resources.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.RoomFrm.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.RoomReservationApp.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.csproj.GenerateResource.cache
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.csproj.CoreCompileInputs.cache
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.csproj.CopyComplete
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.exe
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.pdb
