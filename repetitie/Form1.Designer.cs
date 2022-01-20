@@ -51,9 +51,9 @@ namespace repetitie
             // btn_order
             // 
             this.btn_order.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_order.Location = new System.Drawing.Point(354, 309);
+            this.btn_order.Location = new System.Drawing.Point(353, 290);
             this.btn_order.Name = "btn_order";
-            this.btn_order.Size = new System.Drawing.Size(165, 45);
+            this.btn_order.Size = new System.Drawing.Size(165, 50);
             this.btn_order.TabIndex = 1;
             this.btn_order.Text = "Accesati meniul";
             this.btn_order.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@ namespace repetitie
             // btn_exit
             // 
             this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_exit.Location = new System.Drawing.Point(354, 463);
+            this.btn_exit.Location = new System.Drawing.Point(352, 454);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(165, 50);
             this.btn_exit.TabIndex = 3;
@@ -73,9 +73,9 @@ namespace repetitie
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(354, 238);
+            this.button1.Location = new System.Drawing.Point(354, 214);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 43);
+            this.button1.Size = new System.Drawing.Size(168, 53);
             this.button1.TabIndex = 6;
             this.button1.Text = "Inregistrare Clienti";
             this.button1.UseVisualStyleBackColor = true;
@@ -93,7 +93,7 @@ namespace repetitie
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.Location = new System.Drawing.Point(354, 383);
+            this.button2.Location = new System.Drawing.Point(353, 368);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(164, 59);
             this.button2.TabIndex = 8;

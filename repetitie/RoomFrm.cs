@@ -78,15 +78,22 @@ namespace repetitie
         {
             {
                 double price;
-                if (!string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtName.Text)
-                    && !string.IsNullOrEmpty(txtPrice.Text) && double.TryParse(txtPrice.Text, out price))
+                try
                 {
-                    var room = context.Rooms.Find(int.Parse(txtId.Text));
-                    room.Name = txtName.Text;
-                    room.Price = price;
-                    room.IsActive = checkActive.Checked;
-                    context.SaveChanges();
-                    dataGridView1.DataSource = context.Rooms.ToList();
+                    if (!string.IsNullOrEmpty(txtId.Text) && !string.IsNullOrEmpty(txtName.Text)
+                        && !string.IsNullOrEmpty(txtPrice.Text) && double.TryParse(txtPrice.Text, out price))
+                    {
+                        var room = context.Rooms.Find(int.Parse(txtId.Text));
+                        room.Name = txtName.Text;
+                        room.Price = price;
+                        room.IsActive = checkActive.Checked;
+                        context.SaveChanges();
+                        dataGridView1.DataSource = context.Rooms.ToList();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
                 }
             }
         }
