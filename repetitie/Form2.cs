@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using System.Diagnostics;
+using System.IO;
 
 namespace repetitie
 {
@@ -18,6 +20,10 @@ namespace repetitie
         {
             pswrd = new StringBuilder();
             pswrd.Append("handybutton");
+            FileStream file = new FileStream("Clientilog.txt", FileMode.OpenOrCreate);
+            TextWriterTraceListener traceListener = new TextWriterTraceListener(file);
+            Trace.Listeners.Add(traceListener);
+            Trace.AutoFlush = true;
             InitializeComponent();
         }
         private void LoadData()
@@ -116,6 +122,7 @@ namespace repetitie
                     Console.WriteLine("Waiting for the add process to finish...");
                     res.Wait();
                     Console.WriteLine("Done.");
+                    Trace.WriteLine(DateTime.Now.ToString("MM\\//dd\\/yyyy h\\:mm:ss:fff tt: ") + s.Nume + " " + s.Prenume + " " + s.DataIntrare + " " + s.Telefon);
                 }
                 catch (Exception ex)
                 {
