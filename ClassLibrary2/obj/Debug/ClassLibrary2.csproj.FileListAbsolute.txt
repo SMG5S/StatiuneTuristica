@@ -1,0 +1,8 @@
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.AssemblyReference.cache
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\obj\Debug\ClassLibrary2.Resource1.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.GenerateResource.cache
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.CoreCompileInputs.cache
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

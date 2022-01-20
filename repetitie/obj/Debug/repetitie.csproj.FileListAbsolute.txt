@@ -68,3 +68,5 @@ C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj
 C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.exe
 C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.pdb
 C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\obj\Debug\repetitie.CustomerForm.resources
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\ClassLibrary2.dll
+C:\Users\ssjgo\source\repos\SMG5S\New folder (3)\StatiuneTuristica\repetitie\bin\Debug\ClassLibrary2.pdb
